@@ -5,8 +5,10 @@
     <classes>
       <class name="testpackage.HomePageTest">
         <methods>
+          <include name="Us"/>
           <include name="object"/>
-          <include name="checkingaddress"/>
+          <include name="login"/>
+          <include name="Pas"/>
           <include name="LaunchingBrowser"/>
         </methods>
       </class> <!-- testpackage.HomePageTest -->

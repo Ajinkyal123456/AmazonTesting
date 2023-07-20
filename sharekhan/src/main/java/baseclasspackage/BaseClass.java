@@ -33,7 +33,7 @@ public class BaseClass {
 @BeforeClass
 public void object() {
 	HomePage home=new HomePage(driver);
-	home.clickOnUs();
+	
 }
 
 		

@@ -11,9 +11,17 @@ public class HomePageTest extends BaseClass {
 	HomePage home;
 	
   @Test
-  public void checkingaddress()  {
+  public void Us()  {
 	  
 	  home.clickOnUs();
 	  
+  }
+  @Test
+  public void Pas() {
+	  home.enterpass();
+  }
+  @Test
+  public void login() {
+	  home.loginbutton();
   }
 }
