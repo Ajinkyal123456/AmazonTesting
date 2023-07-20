@@ -1,16 +1,19 @@
 package testpackage;
 
-import org.testng.Reporter;
+
+
 import org.testng.annotations.Test;
 
-public class HomePageTest {
-	
-	
+import baseclasspackage.BaseClass;
+import pompackage.HomePage;
+
+public class HomePageTest extends BaseClass {
+	HomePage home;
 	
   @Test
-  public void checkingaddress() {
+  public void checkingaddress()  {
 	  
-	 Reporter.log("HomePage is open", true);
+	  home.clickOnUs();
 	  
   }
 }
