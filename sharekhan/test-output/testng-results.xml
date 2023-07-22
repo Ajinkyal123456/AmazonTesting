@@ -1,137 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-20T18:16:17 IST" name="Default suite" finished-at="2023-07-20T18:16:25 IST" duration-ms="7934">
+  <suite started-at="2023-07-22T21:08:06 IST" name="Default suite" finished-at="2023-07-22T21:08:15 IST" duration-ms="8374">
     <groups>
     </groups>
-    <test started-at="2023-07-20T18:16:17 IST" name="Default test" finished-at="2023-07-20T18:16:25 IST" duration-ms="7934">
+    <test started-at="2023-07-22T21:08:06 IST" name="Default test" finished-at="2023-07-22T21:08:15 IST" duration-ms="8374">
       <class name="testpackage.HomePageTest">
-        <test-method is-config="true" signature="LaunchingBrowser()[pri:0, instance:testpackage.HomePageTest@6dc17b83]" started-at="2023-07-20T18:16:17 IST" name="LaunchingBrowser" finished-at="2023-07-20T18:16:25 IST" duration-ms="7818" status="PASS">
+        <test-method is-config="true" signature="launchb()[pri:0, instance:testpackage.HomePageTest@6c80d78a]" started-at="2023-07-22T21:08:06 IST" name="launchb" finished-at="2023-07-22T21:08:14 IST" duration-ms="8058" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchingBrowser -->
-        <test-method is-config="true" signature="object()[pri:0, instance:testpackage.HomePageTest@6dc17b83]" started-at="2023-07-20T18:16:25 IST" name="object" finished-at="2023-07-20T18:16:25 IST" duration-ms="40" status="PASS">
+        </test-method> <!-- launchb -->
+        <test-method signature="Pass()[pri:0, instance:testpackage.HomePageTest@6c80d78a]" started-at="2023-07-22T21:08:14 IST" name="Pass" finished-at="2023-07-22T21:08:15 IST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- object -->
-        <test-method signature="Pas()[pri:0, instance:testpackage.HomePageTest@6dc17b83]" started-at="2023-07-20T18:16:25 IST" name="Pas" finished-at="2023-07-20T18:16:25 IST" duration-ms="16" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "pompackage.HomePage.enterpass()" because "this.home" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pompackage.HomePage.enterpass()" because "this.home" is null
-at testpackage.HomePageTest.Pas(HomePageTest.java:21)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Pas -->
-        <test-method signature="Us()[pri:0, instance:testpackage.HomePageTest@6dc17b83]" started-at="2023-07-20T18:16:25 IST" name="Us" finished-at="2023-07-20T18:16:25 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "pompackage.HomePage.clickOnUs()" because "this.home" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pompackage.HomePage.clickOnUs()" because "this.home" is null
-at testpackage.HomePageTest.Us(HomePageTest.java:16)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- Pass -->
+        <test-method signature="Us()[pri:0, instance:testpackage.HomePageTest@6c80d78a]" started-at="2023-07-22T21:08:15 IST" name="Us" finished-at="2023-07-22T21:08:15 IST" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Us -->
-        <test-method signature="login()[pri:0, instance:testpackage.HomePageTest@6dc17b83]" started-at="2023-07-20T18:16:25 IST" name="login" finished-at="2023-07-20T18:16:25 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "pompackage.HomePage.loginbutton()" because "this.home" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pompackage.HomePage.loginbutton()" because "this.home" is null
-at testpackage.HomePageTest.login(HomePageTest.java:25)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="login()[pri:0, instance:testpackage.HomePageTest@6c80d78a]" started-at="2023-07-22T21:08:15 IST" name="login" finished-at="2023-07-22T21:08:15 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->

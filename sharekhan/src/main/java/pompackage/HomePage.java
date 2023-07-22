@@ -4,14 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Reporter;
-
-import baseclasspackage.BaseClass;
 
 
 
 
-public class HomePage  extends BaseClass {
+
+public class HomePage  {
 
 	@FindBy(xpath="//*[@name='username']")private WebElement username;
 	@FindBy(xpath="//*[@name='password']")private WebElement password;
@@ -23,7 +21,7 @@ public class HomePage  extends BaseClass {
 		PageFactory.initElements(driver,this);
 	}
 	
-	public void clickOnUs()  {
+	public void senddatatoUsername()  {
 		username.sendKeys("Admin");	
 	}
 	public void enterpass() {

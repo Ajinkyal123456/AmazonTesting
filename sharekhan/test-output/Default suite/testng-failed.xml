@@ -6,10 +6,7 @@
       <class name="testpackage.HomePageTest">
         <methods>
           <include name="Us"/>
-          <include name="object"/>
-          <include name="login"/>
-          <include name="Pas"/>
-          <include name="LaunchingBrowser"/>
+          <include name="launchb"/>
         </methods>
       </class> <!-- testpackage.HomePageTest -->
     </classes>
